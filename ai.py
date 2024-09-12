@@ -68,9 +68,9 @@ for sentence in line_x:
 
 #쓰기
 import pickle
-with open('tokenized_data_file2.pkl', 'wb') as f:
+with open('tokenized_data_file.pkl', 'wb') as f:
     pickle.dump(tokenized_data, f)
-with open('y_data_file2.pkl', 'wb') as f:
+with open('y_data_file.pkl', 'wb') as f:
     pickle.dump(y, f)
 
 #불러오기
